@@ -49,6 +49,7 @@
     "@stdlib/ndarray-base-nullary-loop-interchange-order": "^0.2.2",
     "@stdlib/ndarray-base-nullary-tiling-block-size": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.2",
+    "@stdlib/ndarray-base-strides2order": "^0.2.2",
     "@stdlib/ndarray-base-vind2bind": "^0.2.2",
     "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-index-modes": "^0.2.2",

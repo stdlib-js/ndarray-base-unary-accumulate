@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-07)
+## Unreleased (2025-05-08)
 
 <section class="features">
 
@@ -71,6 +71,7 @@
 
 ### Bug Fixes
 
+-   [`1e0917b`](https://github.com/stdlib-js/stdlib/commit/1e0917b1bba1d273d93e8fa97cc8a060661bbbf0) - use resolved order when computing loop variables
 -   [`2e9ea06`](https://github.com/stdlib-js/stdlib/commit/2e9ea0690e40506e0c09764f40f8163fb0c7ff7c) - update signatures
 -   [`c82563a`](https://github.com/stdlib-js/stdlib/commit/c82563aa50c03568da53abce9420b97924f60e3f) - remove continuation
 
@@ -84,6 +85,7 @@
 
 <details>
 
+-   [`1e0917b`](https://github.com/stdlib-js/stdlib/commit/1e0917b1bba1d273d93e8fa97cc8a060661bbbf0) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`421c4cf`](https://github.com/stdlib-js/stdlib/commit/421c4cfcd29b8dafd580ef8feecb1d664de64040) - **bench:** fix assertion _(by Athan Reines)_
