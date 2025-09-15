@@ -55,7 +55,8 @@
     "@stdlib/ndarray-index-modes": "^0.2.2",
     "@stdlib/ndarray-orders": "^0.2.2",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-typed-complex-ctors": "^0.2.2",
