@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@esm/index.mjs';
+import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@v0.0.0-esm/index.mjs';
 ```
 
 #### accumulateUnary( arrays, initial, clbk )
@@ -142,7 +142,7 @@ After each callback invocation, the callback return value is subsequently used a
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@esm/index.mjs';
-import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@esm/index.mjs';
+import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@v0.0.0-esm/index.mjs';
 
 var N = 10;
 var x = {
