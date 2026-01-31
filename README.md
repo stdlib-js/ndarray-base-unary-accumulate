@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-unary-accumulate/tags). For example,
+
+```javascript
 import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@v0.1.0-deno/mod.js';
 ```
 
@@ -137,7 +142,7 @@ After each callback invocation, the callback return value is subsequently used a
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@deno/mod.js';
-import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@v0.1.0-deno/mod.js';
+import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@deno/mod.js';
 
 var N = 10;
 var x = {
