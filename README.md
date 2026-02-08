@@ -478,8 +478,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-unary-accumulate.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-unary-accumulate
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-unary-accumulate/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/ndarray-base-unary-accumulate/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/ndarray-base-unary-accumulate/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/ndarray-base-unary-accumulate/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-unary-accumulate/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-unary-accumulate?branch=main
