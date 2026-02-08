@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-unary-accumulate/tags). For example,
+
+```javascript
 import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@v0.1.1-esm/index.mjs';
 ```
 
@@ -142,7 +147,7 @@ After each callback invocation, the callback return value is subsequently used a
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@esm/index.mjs';
-import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@v0.1.1-esm/index.mjs';
+import accumulateUnary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-accumulate@esm/index.mjs';
 
 var N = 10;
 var x = {
