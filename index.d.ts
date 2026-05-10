@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,16 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Perform a reduction over elements in an input ndarray.
+* Callback invoked for each ndarray element.
 *
-* @module @stdlib/ndarray-base-unary-accumulate
+* @param acc - accumulated result
+* @param value - current ndarray element
+* @returns result
+*/
+type Callback<T = unknown, U = unknown> = ( acc: T, value: U ) => T;
+
+/**
+* Performs a reduction over elements in an ndarray.
+*
+* @param arrays - array-like object containing one input ndarray
+* @param initial - initial value
+* @param clbk - callback function
+* @returns accumulated result
 *
 * @example
 * var Float64Array = require( '@stdlib/array-float64' );
-* var accumulateUnary = require( '@stdlib/ndarray-base-unary-accumulate' );
 *
 * function add( acc, x ) {
 *     return acc + x;
@@ -57,12 +73,9 @@
 * var v = accumulateUnary( [ x ], 0.0, add );
 * // returns 39.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function accumulateUnary<T = unknown, U = unknown>( arrays: ArrayLike<typedndarray<U>>, initial: T, clbk: Callback<T, U> ): T;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = accumulateUnary;
