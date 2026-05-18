@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-16)
+## Unreleased (2026-05-18)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
 -   [`20df517`](https://github.com/stdlib-js/stdlib/commit/20df51759bde322eb55d2f4eef4b17e99a9eb19c) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary-accumulate` [(#12046)](https://github.com/stdlib-js/stdlib/pull/12046) _(by Karan Anand)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`d6065f1`](https://github.com/stdlib-js/stdlib/commit/d6065f1af58925d59d168fe786ccdb2ccf3a8df0) - **chore:** fix C lint errors [(#11348)](https://github.com/stdlib-js/stdlib/pull/11348) _(by Guneet Gill, Athan Reines)_
