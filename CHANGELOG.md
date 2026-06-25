@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`ae0704c`](https://github.com/stdlib-js/stdlib/commit/ae0704c8acf3023469ab02686154e26193a601cd) - **docs:** fix typo `PREMABLE` to `PREAMBLE` [(#13130)](https://github.com/stdlib-js/stdlib/pull/13130) _(by anee3)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
 -   [`20df517`](https://github.com/stdlib-js/stdlib/commit/20df51759bde322eb55d2f4eef4b17e99a9eb19c) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary-accumulate` [(#12046)](https://github.com/stdlib-js/stdlib/pull/12046) _(by Karan Anand)_
